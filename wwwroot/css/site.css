@@ -52,11 +52,63 @@ button.accept-policy {
   line-height: inherit;
 }
 
+
+
+
+
+
+/*** custom css ***/
+div#body-container.container {
+    margin: 1rem;
+    max-width: none;
+    width: 100%;
+}
+
+
+@media (min-width: 1200px) {
+    div#body-container.container {
+        margin: 1rem;
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 992px) {
+    div#body-container.container {
+        margin: 1rem;
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    div#body-container.container {
+        margin: 1rem;
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 576px) {
+    div#body-container.container {
+        margin: 1rem;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
