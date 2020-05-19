@@ -6,12 +6,15 @@
     <title>@ViewData["Title"] - Victor Chimenti</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
+    @*Display custom favicon*@
+    <link rel="icon" type="image/x-icon" href="~/assets/favicon.ico">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Victor Chimenti</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img id="nav-logo" src="~/assets/Horizontal-Logo_s400-mw.jpg" alt="Victor Chimenti" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
