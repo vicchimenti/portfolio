@@ -115,7 +115,9 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
+  padding-top: 1rem;
   position: absolute;
   bottom: 0;
   width: 100%;
