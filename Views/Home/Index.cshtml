@@ -8,7 +8,7 @@
             <div class="text-left" id="profile">
                 <p>
                     <figure class="figure">
-                        <img src="~/assets/victor-chimenti.jpg" class="d-block" alt="Victor Chimenti" caption="Victor Chimenti, MSCS-SE" />
+                        <img src="~/assets/victor-chimenti.jpg" class="img-fluid d-block" alt="Victor Chimenti" caption="Victor Chimenti, MSCS-SE" />
                         <figcaption class="figure-caption">Victor Chimenti, MSCS-SE</figcaption>
                     </figure>
                 </p>
@@ -32,18 +32,20 @@
             </div>
         </div>
         <div class="col-xs-12 col-md-9 order-md-last" id="main-column">
-            <div class="text-center" id="introduction">
-                <h3 class="display-4">Software Developer Portfolio</h3>
-                <p class="text-left">Welcome to my new Developer Portfolio Tool. This web application is a live prototype and when complete will allow developers to create a user account then quickly implement a profile of their work from a simple template. This tool is hosted on Azure Cloud and reads project data from an SQL database I designed. Built with a tech stack of .NET Core 3.1 and a code first MVC pattern, Developer Portfolio is a responsive app that delivers a smooth user experience in all browsers ahnd screen sizes.</p>
+            <div class="text-center" id="introduction-wrapper">
+                <h3 class="display-4" id="introduction">Software Developer Portfolio</h3>
+                <p class="text-left">Welcome to my new Developer Portfolio Tool. This web application is a live prototype and when complete will allow developers to create a user account then quickly implement a profile of their work from a simple template. This tool is hosted on Azure Cloud and reads project data from an SQL database I designed. Built with a tech stack of .NET Core 3.1 and a code first MVC pattern, Developer Portfolio is a responsive app that delivers a smooth user experience in all browsers and screen sizes.</p>
             </div>
-            <div class="container-fluid" id="project-container">
+            <div class="container-fluid col-12" id="project-container">
                 <div class="row" id="project-row">
                     <div class="col-xs-12 col-md-10">
                         <h5>Projects</h5>
-                        <img class="brand-logo" src="~/assets/Vertical Logo_s400-sharper.jpg" alt="</> Victor Chimenti" />
+                        <figure class="figure">
+                            <img class="brand-logo" src="~/assets/Vertical Logo_s400-sharper.jpg" alt="</> Victor Chimenti" />
+                        </figure>
                     </div>
                     <div class="col-xs-12 col-md-2">
-                        @*<h4 class="text=center display-4">Filter</h4>*@
+                        <h5>Filter</h5>
                     </div>
                 </div>
             </div>
