@@ -42,6 +42,56 @@ a {
     max-width: 100%;
 }
 
+
+span.card-title
+
+div.card-header a.btn-link span.cardTitleBox {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+div.card-header a.btn-link:hover {
+    text-decoration: none;
+}
+
+div.card div.card-header a.btn-link:hover span.cardTitleBox i.fas {
+    text-decoration: none;
+}
+
+span.card-name:hover {
+    text-decoration: underline;
+}
+
+div.card div.card-header a.btn-link span.cardTitleBox i.fa-plus {
+    display: none;
+}
+
+div.card div.card-header a.btn-link[aria-expanded="false"] span.cardTitleBox i.fa-plus {
+    display: initial;
+}
+
+div.card div.card-header a.btn-link[aria-expanded="false"] span.cardTitleBox i.fa-minus {
+    display: none;
+}
+
+div.card div.card-header a.btn-link:checked span.cardTitleBox i.fas {
+    text-decoration: none;
+}
+
+div.card div.card-header a.btn-link:visited span.cardTitleBox i.fas {
+    text-decoration: none;
+}
+
+div.card div.card-header a.btn-link:after span.cardTitleBox i.fas {
+    text-decoration: none;
+}
+
+
+
+
+
+
 div#main-column {
     margin-bottom: 1rem;
     overflow-x: hidden;
