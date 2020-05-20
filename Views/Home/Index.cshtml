@@ -39,15 +39,47 @@
             </div>
             <div class="container-fluid col-12 text-left" id="project-container">
                 <div class="row" id="project-row">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 col-md-10">
                         <h5>Projects</h5>
-                        <figure class="figure">
-                            <img class="brand-logo img-fluid" src="~/assets/Vertical Logo_s400-sharper.jpg" alt="</> Victor Chimenti" />
-                        </figure>
+                        <div class="card border-dark rounded-0 accordion" id="project-01">
+                            <div class="card-header" id="heading-project-01">
+                                <a href="#" class="btn-link" id="button-project-01" data-toggle="collapse" data-target="#collapse-project-01" aria-expanded="false" aria-controls="collapse-project-01">
+                                    <i class="fas fa-minus" aria-hidden="true"></i>
+                                    <i class="fas fa-plus" aria-hidden="true"></i>
+                                    <h5 class="card-title">Developer Portfolio</h5>
+                                </a>
+                                <p class="card-subtitle">A responsive web application that allows engineers to quickly deploy a portoflio of their work examples.</p>
+                                <img class="card-img" src="~/assets/Project Images/dev-portfolio_c16x9-s1000-mw.jpg" alt="developer portfolio project">
+                            </div>
+                            <div class="collapse in" id="collapse-project-01" aria-expanded="false">
+                                <div class="card-body">
+                                    <p class="card-subtitle">
+                                        It was important to me that my portfolio be an example of my work. So I built it with a set of tools I'm very comfortable using and added CRUDi functionality so that I can add new projects to the database as I work on them and those projects will automatically appear on my portfolio. This gives the user not only a look over my history but also a live look at what I'm working on now.
+                                    </p>
+                                    <hr />
+                                    <h6 class="card-text">Tech Stack</h6>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">.NET Core</li>
+                                        <li class="list-group-item">MVC Pattern</li>
+                                        <li class="list-group-item">Razor Page</li>
+                                        <li class="list-group-item">Bootstrap</li>
+                                        <li class="list-group-item">Azure Cloud</li>
+                                        <li class="list-group-item">SQL</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://chimenti.azurewebsites.net/" class="card-link" title="Live Developer Portfolio Website" target="_blank">Live Site</a>
+                                    <a href="https://github.com/vicchimenti/portfolio" class="card-link" title="Git Hub Code Repository" target="_blank">GitHub Repo</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    @*<div class="col-xs-12 col-md-2">
-                        <h5>Filter</h5>
-                    </div>*@
+                    <div class="col-xs-12 col-md-2">
+                        @*<h5>Filter</h5>*@
+                        @*<figure class="figure">
+                            <img class="brand-logo img-fluid" src="~/assets/Vertical Logo_s400-sharper.jpg" alt="</> Victor Chimenti" />
+                        </figure>*@
+                    </div>
                 </div>
             </div>
         </div>
