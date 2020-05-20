@@ -37,18 +37,33 @@ a {
     overflow-y: scroll;
 }*/
 
+h3 {
+    color: #346DBF;
+}
+
+h4 {
+    color: #346DBF;
+}
+
 .img-fluid {
     height: auto;
     max-width: 100%;
 }
 
+h4#project-header {
+    padding-bottom: .5rem;
+}
 
-span.card-title
+
+.card-subtitle {
+    margin: .25rem;
+    padding: .25rem;
+}
 
 div.card-header a.btn-link span.cardTitleBox {
     display: inline-block;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 1.75rem;
+    font-weight: 500;
 }
 
 div.card-header a.btn-link:hover {
@@ -149,6 +164,9 @@ div#body-container {
     h3#introduction.display-4 {
         font-size: 2.5rem;
     }
+    h4#project-header.display-4 {
+        font-size: 2.25rem;
+    }
 }
 
 
@@ -156,11 +174,17 @@ div#body-container {
     h3#introduction.display-4 {
         font-size: 2rem;
     }
+    h4#project-header.display-4 {
+        font-size: 1.75rem;
+    }
 }
 
 @media (max-width: 576px) {
     h3#introduction.display-4 {
         font-size: 1.75rem;
+    }
+    h4#project-header.display-4 {
+        font-size: 1.5rem;
     }
 }
 
