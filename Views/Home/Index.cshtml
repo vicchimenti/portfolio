@@ -95,10 +95,13 @@
                                 <div class="card-body">
                                     <h4 class="card-text">Description</h4>
                                     <p class="card-text">
-                                        Developers often need an updated portfolio for interviewing. Noticing this demand I decided to build my own portfolio from scratch as a template for the launch of this application. The public view represents an isolated front-end specific to the developer whose profile it hosts. With the secure and private backend I am able to add new projects via CRUDi commands which will appear in the formatted list of projects. This gives the user not only a survey of my history but also a live inspection of what I'm working on now.
+                                        My graduate capstone team was tasked with replacing an existing ATM Locator for BECU, a local credit union. This two quarter project gave us an opportunity to follow the full Agile Software Development Life Cycle with their inhouse engineers, analysts, project managers and directors. We were given private access to the COOP API to pull data about partner credit unions. Because the data in this API was sourced from a variety of organizations and it was imperative that no duplicate locations appear on the map, we build two SQL databases that were hosted on Azure Cloud student accounts.
                                     </p>
                                     <p class="card-text">
-                                        The Developer Portfolio Application is still in the live prototype phase and an excellent opportunity for you to follow the progress of my work over time.
+                                        The flat database pulled data in batches from the COOP API, we scrubbed the entries and loaded the results into a second database designed with a custom schema for our client. This customer facing Google Map application pulls its data from the custom database.
+                                    </p>
+                                    <p class="card-text">
+                                        In addition to the requirements elicitation and weekly stand ups with the client, my role was to build the web application using .Net Core MVC and host it on the Azure Cloud. One of the biggest challenges for me was sorting the ATMs by distance from the user's location. To accomplish this I used the Microsoft NetTopologySuite to compare information provided by a session cookie. The prototype you see here is the working example of my contributions to the capstone team.
                                     </p>
                                     <hr />
                                     <h4 class="card-text">Tech Stack</h4>
@@ -109,14 +112,16 @@
                                         <li class="list-group-item">Bootstrap</li>
                                         <li class="list-group-item">Azure Cloud</li>
                                         <li class="list-group-item">Entity Framework</li>
+                                        <li class="list-group-item">NetTopologySuite</li>
+                                        <li class="list-group-item">Private COOP API</li>
+                                        <li class="list-group-item">Google Map JS API</li>
                                         <li class="list-group-item">SQL</li>
                                         <li class="list-group-item">AJAX</li>
-                                        <li class="list-group-item">Private API Call</li>
                                     </ul>
                                 </div>
                                 <div class="card-footer">
-                                    <a href="https://chimenti.azurewebsites.net/" class="card-link" title="Live Developer Portfolio Website" target="_blank">Live Site</a>
-                                    <a href="https://github.com/vicchimenti/portfolio" class="card-link" title="Git Hub Code Repository" target="_blank">GitHub Repo</a>
+                                    <a href="https://locator-coop.azurewebsites.net/" class="card-link" title="Maphawks ATM Locator" target="_blank">Live Site</a>
+                                    <a href="https://github.com/Victor-Chimenti/Locator" class="card-link" title="Capstone Team Git Hub Code Repository" target="_blank">GitHub Repo</a>
                                 </div>
                             </div>
                         </div>
