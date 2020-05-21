@@ -49,24 +49,32 @@ h4 {
     color: #346DBF;
 }
 
+a:hover {
+    display: inline-block;
+}
+
 .icons {
     font-size: 2rem;
 }
 
 .fa-github {
     color: #F4CBB2;
+    text-decoration: none;
 }
 
 .fa-twitter {
     color: #00acee;
+    text-decoration: none;
 }
 
 .fa-facebook-f {
     color: #3b5998;
+    text-decoration: none;
 }
 
 .fa-linkedin-in {
     color: #0e76a8;
+    text-decoration: none;
 }
 
 i.fab:hover {
