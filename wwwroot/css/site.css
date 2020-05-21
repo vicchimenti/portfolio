@@ -53,6 +53,27 @@ h4 {
     font-size: 2rem;
 }
 
+.fa-github {
+    color: #F4CBB2;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+}
+
+.fa-linkedin-in {
+    color: #0e76a8;
+}
+
+i.fab:hover {
+    color: #0275d8;
+    text-decoration: none;
+}
+
 .img-fluid {
     height: auto;
     max-width: 100%;
