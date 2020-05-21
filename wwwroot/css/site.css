@@ -163,6 +163,12 @@ div#body-container {
     padding-bottom: 1rem;
 }
 
+div#projects-wrapper {
+    /*height: 725px;*/
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 .container {
     margin: 1rem;
     max-width: none;
@@ -205,6 +211,9 @@ div#body-container {
 @media (max-width: 992px) {
     .display-4 {
         font-size: 2.25rem;
+    }
+    .icons {
+        font-size: 1.75rem;
     }
 }
 
