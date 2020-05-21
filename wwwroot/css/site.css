@@ -77,6 +77,11 @@ a:hover {
     text-decoration: none;
 }
 
+.fa-stack-overflow {
+    color: #f47f24;
+    text-decoration: none;
+}
+
 i.fab:hover {
     color: #0275d8;
     text-decoration: none;
