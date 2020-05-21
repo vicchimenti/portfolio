@@ -1,2 +1,15 @@
 # Personal Portfolio
-Currently hosted at chimenti.azurewebsites.net
+Currently hosted at https://chimenti.azurewebsites.net/
+
+## Live Prototype
+This application is a live prototype currently in progress. When complete it will allow developers to create a user profile and quickly implement a portfolio from a simple template.
+
+
+### Tech Stack
+- C#
+- MVC
+- Razor
+- Azure Cloud
+- SQL
+
+
