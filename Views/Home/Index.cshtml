@@ -79,6 +79,54 @@
                     <div class="col-xs-12 col-md-8" id="projects-wrapper">
 
 
+                        @* Project 03 *@
+                        <div class="card border-dark rounded-0 accordion" id="project-03">
+                            <div class="card-header" id="heading-project-03">
+                                <a href="#" class="btn-link" id="button-project-03" data-toggle="collapse" data-target="#collapse-project-03" aria-expanded="false" aria-controls="collapse-project-03">
+                                    <span class="cardTitleBox">
+                                        <i class="fas fa-minus"></i><i class="fas fa-plus"></i>
+                                        <span class="card-title">ATM Locator</span>
+                                    </span>
+                                </a>
+                                <p class="card-subtitle">An ATM locator app that allows users in the Seattle area to find and get directions to the best Credit Union ATM to suit their needs on the go.</p>
+                                <img class="card-img" src="~/assets/Project Images/atm-locator-full_c16x9_s1000_mw.jpg" alt="atm locator application">
+                            </div>
+                            <div class="collapse in" id="collapse-project-03" aria-expanded="false">
+                                <div class="card-body">
+                                    <h4 class="card-text">Description</h4>
+                                    <p class="card-text">
+                                        My graduate capstone team was tasked with replacing an <a href="https://www.becu.org/locations/find-locations" class="card-link" title="Boeing Employees Credit Union" target="_blank">existing ATM Locator for BECU</a>, a local credit union. This two quarter project gave us an opportunity to follow the full Agile Software Development Life Cycle with their inhouse engineers, analysts, project managers and directors. We were given private access to the <a href="https://www.co-opfs.org/Solutions/Integrate/Developer-Portal" class="card-link ml-0" title="COOP Developer Portal" target="_blank">COOP API</a> to pull data about partner credit unions. Because the data in this API was sourced from a variety of organizations and it was imperative that no duplicate locations appear on the map, we built two SQL databases that were hosted on Azure Cloud student accounts.
+                                    </p>
+                                    <p class="card-text">
+                                        The flat database pulled data in batches from the COOP API, we scrubbed the entries and loaded the results into a second database designed with a custom schema for our client. The customer facing Google Map application pulls its data from the custom database.
+                                    </p>
+                                    <p class="card-text">
+                                        In addition to the requirements elicitation and weekly stand ups with the client, my role was to build the web application using .Net Core MVC and host it on the Azure Cloud. One of the biggest challenges for me was sorting the ATMs by distance from the user's location. To accomplish this I used the Microsoft NetTopologySuite to compare information provided by a session cookie. The prototype you see here is the working example of my contributions to the capstone team.
+                                    </p>
+                                    <hr />
+                                    <h4 class="card-text">Tech Stack</h4>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">.NET Core</li>
+                                        <li class="list-group-item">MVC Pattern</li>
+                                        <li class="list-group-item">Razor Page</li>
+                                        <li class="list-group-item">Bootstrap</li>
+                                        <li class="list-group-item">Azure Cloud</li>
+                                        <li class="list-group-item">Entity Framework</li>
+                                        <li class="list-group-item">NetTopologySuite</li>
+                                        <li class="list-group-item">Private COOP API</li>
+                                        <li class="list-group-item">Google Map JS API</li>
+                                        <li class="list-group-item">SQL</li>
+                                        <li class="list-group-item">AJAX</li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="https://locator-coop.azurewebsites.net/" class="card-link" title="Maphawks ATM Locator" target="_blank">Live Site</a>
+                                    <a href="https://github.com/Victor-Chimenti/Locator" class="card-link" title="Capstone Team Git Hub Code Repository" target="_blank">GitHub Repo</a>
+                                </div>
+                            </div>
+                        </div>
+
+
                         @* Project 02 *@
                         <div class="card border-dark rounded-0 accordion" id="project-02">
                             <div class="card-header" id="heading-project-02">
