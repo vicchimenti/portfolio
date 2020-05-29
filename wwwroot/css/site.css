@@ -176,6 +176,11 @@ div#projects-wrapper {
 }
 
 
+
+
+
+/***  Media Queries Min Width ***/
+
 @media (min-width: 1200px) {
     .container {
         margin: 1rem;
@@ -208,9 +213,32 @@ div#projects-wrapper {
 }
 
 
+
+
+/***  Media Queries Max Width ***/
+
+
+@media (max-width: 1199px) {
+    div.card-header a.btn-link span.cardTitleBox {
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    h4.card-text {
+        font-size: 1.4rem;
+    }
+}
+
+
 @media (max-width: 992px) {
     .display-4 {
         font-size: 2.25rem;
+    }
+    div.card-header a.btn-link span.cardTitleBox {
+        font-size: 1.4rem;
+    }
+    h4.card-text {
+        font-size: 1.3rem;
     }
     .icons {
         font-size: 1.75rem;
@@ -222,11 +250,24 @@ div#projects-wrapper {
     .display-4 {
         font-size: 1.75rem;
     }
+    div.card-header a.btn-link span.cardTitleBox {
+        font-size: 1.3rem;
+    }
+    h4.card-text {
+        font-size: 1.2rem;
+    }
 }
+
 
 @media (max-width: 576px) {
     .display-4 {
         font-size: 1.5rem;
+    }
+    div.card-header a.btn-link span.cardTitleBox {
+        font-size: 1.2rem;
+    }
+    h4.card-text {
+        font-size: 1.1rem;
     }
 }
 
