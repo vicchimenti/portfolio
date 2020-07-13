@@ -6,6 +6,9 @@ This application is a live prototype currently in progress. When complete it wil
 
 
 ### Tech Stack
+- HTML
+- JavaScript
+- CSS
 - C#
 - MVC
 - Razor
